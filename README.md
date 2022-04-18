@@ -1,6 +1,6 @@
-#Demo project for TestNG
+# Demo project for TestNG
 
-##Tasks:
+## Tasks:
 - Add log4j logger to the project
 - Add the TestNg library to the dependency in the pom.xml file
 - Write auto (unit) tests using data provider (mandatory writing of BeforeClass, AfterClass methods)
@@ -11,7 +11,7 @@
 - Add Maven Surefire Plugin to run tests
 - Configure the testing.xml file to run tests using the mvn
 
-##Useful links:
+## Useful links:
 - [TestNG - baeldung](https://www.baeldung.com/testng)
 - [TestNG – Parallel Test Execution](https://howtodoinjava.com/testng/testng-executing-parallel-tests/)
 - [Maven Surefire Plugin](https://maven.apache.org/surefire/maven-surefire-plugin/examples/testng.html)
