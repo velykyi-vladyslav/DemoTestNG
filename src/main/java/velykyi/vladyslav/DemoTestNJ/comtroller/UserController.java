@@ -38,10 +38,10 @@ public class UserController {
         return userService.getUser(id);
     }
 
-    @GetMapping("get/{id}")
+    @GetMapping("delete/{id}")
     @ResponseStatus(OK)
     public ResponseEntity<Void> deleteUser(@PathVariable long id) {
-        log.info(format("Get user with id: %o", id));
+        log.info(format("Delete user with id: %o", id));
         userService.delete(id);
 
         return ResponseEntity.noContent().build();

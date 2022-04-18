@@ -7,7 +7,4 @@ public interface UserRepository extends JpaRepository<UserDao, Long> {
 
     @Override
     void deleteAll();
-
-    @Override
-    void deleteById(Long aLong);
 }
